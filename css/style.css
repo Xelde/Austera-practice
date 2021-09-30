@@ -72,8 +72,7 @@ header div.call-to a{
 div.back-services{
 	background-image: url(../img/back-services.jpg);
 	background-repeat: no-repeat;
-	background-position: center center;
-	padding-bottom: 140px;
+	background-position: center center
 }
 section.our-services h2{
 	color: #242424;
@@ -180,94 +179,4 @@ div.services-3 div.serv-2 a:hover{
 	line-height: 44px;
 	margin-top: 50px;
 	border: 1px solid #fff;
-}
-/**************************************
-************Section boy*************
-***************************************/
-section.boy{
-	height: 638px;
-}
-section.boy div img{
-	max-width: 100%;
-}
-section.boy div h3{
-	font-size: 72px;
-	color: #000;
-	max-width: 600px;
-	margin-left: 75px;
-}
-section.boy div p{
-	color: #878787;
-	font-size: 16px;
-	max-width: 600px;
-	margin-left: 75px;
-}
-section.boy div a{
-	display: block;
-	text-align: center;
-	text-decoration: none;
-	background: #2ebaee;
-	height: 45px;
-	width: 150px;
-	border-radius: 24px;
-	font-size: 16px;
-	color: #fff;
-	line-height: 44px;
-	margin-top: 50px;
-	margin-left: 75px;
-}
-section.boy div a:hover{
-	color: #2ebaee;
-	background: #fff;
-	border: 1px solid #2ebaee;
-}
-/**************************************
-************Section next-boy*************
-***************************************/
-section.next-boy{
-	min-height: 430px;
-}
-section.next-boy div.block-1{
-	background-image: url(../img/ico-07.png);
-	min-height: 430px;
-	background-repeat: no-repeat;
-	background-position: center center;
-}
-section.next-boy div.block-2{
-	background-image: url(../img/ico-08.png);
-	min-height: 430px;
-	background-repeat: no-repeat;
-	background-position: center center;
-}
-section.next-boy div.block-3{
-	background-image: url(../img/ico-09.png);
-	min-height: 430px;
-	background-repeat: no-repeat;
-	background-position: center center;
-}
-section.next-boy div.block-4{
-	background-image: url(../img/ico-10.png);
-	min-height: 430px;
-	background-repeat: no-repeat;
-	background-position: center center;
-}
-section.next-boy h4{
-	color: #fff;
-	font-size: 48px;
-	font-weight: bold;
-	height: 100%;
-	width: 100%;
-	background: rgba(0, 0, 0, 0.7);
-	margin: 0;
-	padding: 140px 65px 0 65px;
-}
-section.next-boy h4:hover{
-	color: #fff;
-	font-size: 48px;
-	font-weight: bold;
-	height: 100%;
-	width: 100%;
-	background: rgba(57, 157, 195, 0.7);
-	margin: 0;
-	padding: 140px 65px 0 65px;
 }
