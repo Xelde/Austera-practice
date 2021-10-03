@@ -3,7 +3,8 @@ body{
 	margin: 0px;
 }
 .container-fluid{
-	padding: 0px;
+	padding: 0;
+
 }
 header{
 	height: 967px;
@@ -188,7 +189,7 @@ div.services-3 div.serv-2 a:hover{
 ************Section boy*************
 ***************************************/
 section.boy{
-	height: 638px;
+	height: 635px;
 }
 section.boy div img{
 	max-width: 100%;
@@ -467,9 +468,272 @@ footer ul li a:hover{
 /**************************************
 ************Адаптивность****************
 ***************************************/
-@media (max-width: 575.98px) { ... }
+@media (max-width: 575.98px) {
+	div.services-3 div.serv-2 {
+    padding-left: 60px;
+}
+div.services-2 h3, div.services-3 h3{
+		margin: 0;
+}
+div.services-2 a {
+	    display: block;
+	    text-align: center;
+	    text-decoration: none;
+	    background: #fff;
+	    height: 45px;
+	    width: 150px;
+	    border-radius: 24px;
+	    font-size: 16px;
+	    color: #2ebaee;
+	    line-height: 44px;
+	    margin-top: 50px;
+	}
+	div.services-2 a {
+	    display: block;
+	    text-align: center;
+	    text-decoration: none;
+	    background: #fff;
+	    height: 45px;
+	    width: 150px;
+	    border-radius: 24px;
+	    font-size: 16px;
+	    color: #2ebaee;
+	    line-height: 44px;
+	    margin-top: 50px;
 
-@media (min-width: 576px) and (max-width: 767.98px) { ... }
+	}
+	div.services-2 a:hover{
+		background: #2ebaee;
+		color: #fff;
+		border: 1px solid #fff;
+}
+div.back-services{
+		height: 3300px;
+		background-size: 4000px;
+	}
+
+ }
+ section.boy div h3 {
+    font-size: 30px;
+    color: #000;
+    max-width: 600px;
+    margin-left: 80px;
+}
+section.next-boy h4 {
+    padding: 100px 40px 0 30px;
+}
+section.next-boy h4:hover{
+
+	padding: 100px 40px 0 30px;
+}
+section.check-our {
+    height: 2300px;
+}
+section.check-our div h2 {
+	text-align: center;
+	margin-right: 200px;
+}
+
+section.footer{
+		height: 700px;
+		width: auto;
+
+	}
+	section.footer div.contact {
+	    color: #fff;
+	    font-size: 36px;
+	    font-weight: bold;
+	    margin-top: 35px;
+	    text-align: center;
+	}
+	section.footer p {
+	    color: #878787;
+	    font-size: 24px;
+	    margin: 14px auto;
+	    text-align: center;
+	}
+	section.footer p.adress {
+	    font-size: 16px;
+	    color: #878787;
+	    margin-top: 20px;
+	    text-align: center;
+	}
+	section.footer ul {
+	    list-style-type: none;
+	    padding: 0px;
+	    margin: 30px 0px ;
+	}
+	section.footer ul li{
+		margin-right: 30px;
+	}
+	section.footer{
+	    background-position: top center;
+	    background-repeat: no-repeat;
+	    height: 720px;
+	    width: auto;
+	}
+
+section.footer input[type="text"]{
+		margin-top: 10px;
+		width: 400px;
+	}
+	section.footer textarea {
+	    width: 400px;
+	    height: 130px;
+	    background: none;
+	    border-radius: 6px;
+	    border: 1px solid #535353;
+	    color: #fff;
+	    font-size: 17px;
+	    display: block;
+	    padding: 30px;
+	    margin: 20px auto;
+	    resize: none;
+	}
+	section.footer input[type="email"]{
+		margin-top: 10px;
+		width: 400px;
+	}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+div.services-2 h3, div.services-3 h3{
+		margin: 0;
+}
+div.services-2 a {
+	    display: block;
+	    text-align: center;
+	    text-decoration: none;
+	    background: #fff;
+	    height: 45px;
+	    width: 150px;
+	    border-radius: 24px;
+	    font-size: 16px;
+	    color: #2ebaee;
+	    line-height: 44px;
+	    margin-top: 50px;
+	}
+	div.services-2 a {
+	    display: block;
+	    text-align: center;
+	    text-decoration: none;
+	    background: #fff;
+	    height: 45px;
+	    width: 150px;
+	    border-radius: 24px;
+	    font-size: 16px;
+	    color: #2ebaee;
+	    line-height: 44px;
+	    margin-top: 50px;
+	}
+	div.services-2 a:hover{
+		background: #2ebaee;
+		color: #fff;
+		border: 1px solid #fff;
+}
+
+	div.back-services{
+		height: 2500px;
+		background-size: 4000px;
+	}
+	section.boy {
+	    height: 400px;
+	}
+	section.boy div h3{
+		margin: 10px auto;
+		font-size: 28px;
+		text-align: center;
+		width: 90%
+	}
+	section.boy div p{
+		font-size: 13px;
+		margin-right: 30px;
+
+	}
+	section.next-boy{
+		height: 900px;
+	}
+	section.check-our{
+		height: 1400px;
+	}
+	section.footer{
+		height: 700px;
+		width: 600px;
+	}
+	section.footer div.contact {
+	    color: #fff;
+	    font-size: 48px;
+	    font-weight: bold;
+	    margin-top: 35px;
+	    text-align: center;
+	}
+	section.footer p {
+	    color: #878787;
+	    font-size: 24px;
+	    margin: 14px auto;
+	    text-align: center;
+	}
+	section.footer p.adress {
+	    font-size: 16px;
+	    color: #878787;
+	    margin-top: 20px;
+	    text-align: center;
+	}
+	section.footer ul {
+	    list-style-type: none;
+	    padding: 30px 10px;
+	    margin: 0 0 0 0%;
+	}
+	section.footer ul li {
+	    display: inline-block;
+	    width: 55px;
+	    height: 55px;
+	    border-radius: 27px;
+	    padding: 0px;
+	}
+	section.footer{
+	    background-position: top center;
+	    background-repeat: no-repeat;
+	    height: 724px;
+	    width: auto;
+	}
+	section.footer input[type="text"]{
+		margin-top: 10px;
+		width: 500px;
+	}
+	section.footer textarea {
+	    width: 500px;
+	    height: 120px;
+	    background: none;
+	    border-radius: 6px;
+	    border: 1px solid #535353;
+	    color: #fff;
+	    font-size: 17px;
+	    display: block;
+	    padding: 30px;
+	    margin: 20px auto;
+	    resize: none;
+	}
+	section.footer input[type="email"]{
+		margin-top: 10px;
+		width: 500px;
+	}
+	footer ul li {
+	    display: inline-block;
+	    margin-right: 12px;
+	}
+	footer p, footer ul {
+	    list-style-type: none;
+	    margin-top: 56px;
+	    padding: 0 10px;
+	    color: #fff;
+	    text-align: left ;
+
+	}
+
+
+
+}
 
 @media (min-width: 768px) and (max-width: 991.98px) { 
 	body{
@@ -612,7 +876,7 @@ footer ul li a:hover{
 		margin-top: 10px;
 	}
 	section.footer textarea {
-	    width: 635px;
+	    width: 400px;
 	    height: 120px;
 	    background: none;
 	    border-radius: 6px;
@@ -674,7 +938,7 @@ footer ul li a:hover{
 		margin-top: 20px;
 	}
 	section.boy{
-		height: auto;
+		height: 331px;
 	}
 	div.services-2 a{
 		border:1px solid #fff;
@@ -728,7 +992,8 @@ footer ul li a:hover{
 @media (min-width: 1200px) and (max-width: 1409.98px){
 	header div.call-to h1{
 		width: 90%;
-		margin: 250px auto;
+		margin-left: 50px;
+		margin-bottom: 0px;
 	}
 	div.services div p{
 		padding-right: 10px;
